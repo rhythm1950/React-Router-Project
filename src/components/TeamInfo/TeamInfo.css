@@ -1,0 +1,42 @@
+.hero-div {
+    height: 300px;
+    border-bottom: 2px solid rgb(155, 155, 155);
+    text-align: center;
+    background-image: url("https://st2.depositphotos.com/3725083/5486/i/600/depositphotos_54860225-stock-photo-stadium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-div img {
+    height: 170px;
+    width: 170px;
+    margin-top: 4%;
+}
+.Info-div {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.info-container {
+    background-color: rgb(29, 140, 177);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.gender-div img {
+    height: 210px;
+    width: 340px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.second-div {
+    background-color: rgb(59, 83, 156);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.paragraph {
+    color: white;
+    margin-right: 10%;
+    margin-left: 10%;
+}
