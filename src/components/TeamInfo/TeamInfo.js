@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import './TeamInfo.css';
 
 const TeamInfo = () => {
@@ -16,8 +18,8 @@ const TeamInfo = () => {
 
     // conditional rendering
 
-    const playersImage = (strGender === "Male") ? <img src="https://sportstar.thehindu.com/football/football-photos/article25994110.ece/ALTERNATES/LANDSCAPE_1200/INDIAAFCREUTERSjpg" alt=""/> 
-    : <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/B9CF/production/_107576574_gettyimages-1152461181-1.jpg" alt=""/>
+    const playersImage = (strGender === "Male") ? <img src="https://sportstar.thehindu.com/football/football-photos/article25994110.ece/ALTERNATES/LANDSCAPE_1200/INDIAAFCREUTERSjpg" alt="" />
+        : <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/B9CF/production/_107576574_gettyimages-1152461181-1.jpg" alt="" />
 
     return (
         <section>
@@ -50,7 +52,7 @@ const TeamInfo = () => {
                 </div>
 
                 <div className="icons">
-                   
+                    <h2><FontAwesomeIcon icon={faCoffee} /></h2>
                 </div>
 
             </div>
