@@ -15,10 +15,11 @@
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 5%;
 }
 .info-container {
     background-color: rgb(29, 140, 177);
-    text-align: center;
+    /* text-align: center; */
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 10px;
@@ -42,5 +43,8 @@
 }
 .icons {
     text-align: center;
+}
+.icons a {
+    margin: 10px 10px;
     color: white;
 }
